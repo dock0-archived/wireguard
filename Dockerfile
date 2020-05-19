@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/dock0/service/service:20200519-9a1ffa0
+FROM docker.pkg.github.com/dock0/service/service:20200519-090350b
 MAINTAINER akerl <me@lesaker.org>
 RUN pacman -S --noconfirm --needed wireguard-tools
 
